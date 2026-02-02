@@ -2,6 +2,8 @@
   <img src="logo.jpeg" alt="iOS 弹窗项目 Logo" width="200" />
 </div>
 
+<div align="center">
+
 # iOS 弹窗项目
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,3 +38,5 @@
 ---
 
 **由 pxbug ❤️ 制作**
+
+</div>

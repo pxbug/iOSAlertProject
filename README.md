@@ -2,6 +2,8 @@
   <img src="logo.jpeg" alt="iOS Alert Project Logo" width="200" />
 </div>
 
+<div align="center">
+
 # iOS Alert Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,3 +38,5 @@ This is a Theos tweak project that injects a native iOS alert popup.
 ---
 
 **Made with ❤️ by pxbug**
+
+</div>
