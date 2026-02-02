@@ -25,6 +25,10 @@ This is a Theos tweak project that injects a native iOS alert popup.
 - **Target App**: Edit `iOSAlertProject.plist` and change `com.apple.springboard` to your target app's Bundle ID (e.g., `com.apple.Maps`).
 - **Alert Content**: Edit `Tweak.x` to change the title, message, or actions.
 
+## Notes
+- **Sandbox Permissions**: Some system apps or apps with strict sandbox restrictions may block injection or popups, but it should work in most regular apps and system apps.
+- **Repeated Popups**: Currently, the logic shows the popup only once per app process lifetime (using `static BOOL hasShown`). If you kill and restart the app, the popup will appear again.
+
 ---
 
 **Made with ❤️ by pxbug**

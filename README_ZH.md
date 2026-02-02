@@ -25,6 +25,10 @@
 - **目标应用**: 编辑 `iOSAlertProject.plist`，将 `com.apple.springboard` 改为您目标应用的 Bundle ID（例如: `com.apple.Maps`）。
 - **弹窗内容**: 编辑 `Tweak.x` 来修改标题、消息或按钮。
 
+## 注意事项
+- **沙盒权限**: 某些系统 App 或具有严格沙盒限制的 App 可能会阻止注入或弹窗，但在大多数普通 App 和系统 App 中应该有效。
+- **重复弹窗**: 目前逻辑是每个 App 进程生命周期内只弹一次（使用 `static BOOL hasShown`）。如果杀掉 App 重启，会再次弹窗。
+
 ---
 
 **由 pxbug ❤️ 制作**
