@@ -2,8 +2,6 @@
   <img src="logo.jpeg" alt="iOS 弹窗项目 Logo" width="200" />
 </div>
 
-<div align="center">
-
 # iOS 弹窗项目
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,6 +34,8 @@
 - **重复弹窗**: 目前逻辑是每个 App 进程生命周期内只弹一次（使用 `static BOOL hasShown`）。如果杀掉 App 重启，会再次弹窗。
 
 ---
+
+<div align="center">
 
 **由 pxbug ❤️ 制作**
 
