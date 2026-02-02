@@ -1,3 +1,7 @@
+# iOS Alert Project
+# Author: pxbug
+# GitHub: https://github.com/pxbug/iOSAlertProject
+
 TARGET := iphone:clang:latest:7.0
 INSTALL_TARGET_PROCESSES = SpringBoard
 
