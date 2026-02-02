@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo.jpeg" alt="iOS Alert Project Logo" width="200" />
+</div>
+
 # iOS Alert Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
