@@ -14,6 +14,8 @@
 
 **作者:** pxbug
 
+<div align="center">
+
 ## 項目結構
 - `Tweak.x`: 包含彈窗邏輯和 hook 源碼。
 - `Makefile`: 建構配置。
@@ -33,6 +35,12 @@
 - **沙盒權限**: 某些系統 App 或具有嚴格沙盒限制的 App 可能會阻止注入或彈窗，但在大多數普通 App 和系統 App 中應該有效。
 - **重複彈窗**: 目前邏輯是每個 App 進程生命週期內只彈一次（使用 `static BOOL hasShown`）。如果殺掉 App 重啟，會再次彈窗。
 
+</div>
+
 ---
 
+<div align="center">
+
 **由 pxbug ❤️ 製作**
+
+</div>
