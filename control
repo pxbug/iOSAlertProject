@@ -1,0 +1,8 @@
+Package: com.yunzhinet.iosalert
+Name: iOS Alert Project
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A simple iOS native alert tweak
+Maintainer: User
+Author: User
+Section: Tweaks

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Theos
+obj/
+theos/
+.deb/
+
+# IDE
+.idea/
+.vscode/
+
+# Packages (large binary files)
+packages/*.deb
+
+# Generated files
+*.pyc
+*.log
