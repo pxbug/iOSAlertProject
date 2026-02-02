@@ -21,6 +21,11 @@
 - `control`: 包信息。
 - `iOSAlertProject.plist`: 指定要注入的應用程序（默認: SpringBoard）。
 
+## 預覽截圖
+<div align="center">
+  <img src="1.png" alt="iOS 彈窗預覽" width="300" />
+</div>
+
 ## 建構方法
 1. 確保已安裝 [Theos](https://github.com/theos/theos)。
 2. 在當前目錄運行 `make package`。

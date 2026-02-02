@@ -21,6 +21,11 @@ This is a Theos tweak project that injects a native iOS alert popup.
 - `control`: Package information.
 - `iOSAlertProject.plist`: Specifies which apps to inject into (Default: SpringBoard).
 
+## Preview
+<div align="center">
+  <img src="1.png" alt="iOS Alert Popup Preview" width="300" />
+</div>
+
 ## How to Build
 1. Ensure you have [Theos](https://github.com/theos/theos) installed.
 2. Run `make package` in this directory.
