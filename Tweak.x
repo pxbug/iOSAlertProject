@@ -61,17 +61,12 @@ static void ShowAlert() {
                                                                      message:@"iOS云智"
                                                               preferredStyle:UIAlertControllerStyleAlert];
 
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消"
-                                                               style:UIAlertActionStyleCancel
-                                                             handler:nil];
-
         UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"确定"
                                                                 style:UIAlertActionStyleDefault
                                                               handler:^(UIAlertAction *action) {
                                                                   NSLog(@"[iOSAlertProject] Confirm tapped");
                                                               }];
 
-        [alert addAction:cancelAction];
         [alert addAction:confirmAction];
 
         [topVC presentViewController:alert animated:YES completion:nil];

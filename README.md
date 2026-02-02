@@ -1,6 +1,5 @@
 <div align="center">
   <img src="logo.jpeg" alt="iOS Alert Project Logo" width="200" />
-</div>
 
 # iOS Alert Project
 
@@ -13,6 +12,8 @@
 This is a Theos tweak project that injects a native iOS alert popup.
 
 **Author:** pxbug
+
+</div>
 
 ## Structure
 - `Tweak.x`: Source code containing the alert logic and hook.
