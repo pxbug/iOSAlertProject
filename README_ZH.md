@@ -1,6 +1,5 @@
 <div align="center">
   <img src="logo.jpeg" alt="iOS 弹窗项目 Logo" width="200" />
-</div>
 
 # iOS 弹窗项目
 
@@ -13,6 +12,8 @@
 这是一个 Theos tweak 项目，用于在 iOS 中注入原生弹窗。
 
 **作者:** pxbug
+
+</div>
 
 ## 项目结构
 - `Tweak.x`: 包含弹窗逻辑和 hook 源码。
